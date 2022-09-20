@@ -1,5 +1,5 @@
 # 숫자 카드 게임
-# 내코드
+#_________________________Mycode
 N,M = map(int,input().split())
 
 dst = []
@@ -10,7 +10,7 @@ for _ in range(0,N):
 
 print(max(dst))
 
-#교재 코드 1
+#_________________________Anscode1
 n,m = map(int,input().split())
 result = 0
 
@@ -21,7 +21,7 @@ for i in range(n):
 
 print(result)
 
-#교재 코드 2 : 2중 반복문 구조를 이용
+#_________________________Anscode2
 n,m = map(int,input().split())
 result = 0
 

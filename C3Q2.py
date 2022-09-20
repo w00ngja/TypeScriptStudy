@@ -12,7 +12,7 @@
 
 import time
 
-# My code
+#_________________________Mycode
 start = time.perf_counter()  # 시간 측정 시작
 
 N,M,K =  map(int, input().split())
@@ -30,7 +30,7 @@ end = time.perf_counter()  # 시간 측정 끝
 print(result)
 print('time : ', end-start)
 
-# 교재 코드 1
+#_________________________Anscode2
 start = time.perf_counter()  # 시간 측정 시작
 n,m,k = map(int, input().split())
 data = list(map(int, input().split()))
@@ -57,7 +57,7 @@ end = time.perf_counter()  # 시간 측정 끝
 print('time : ', end - start)
 
 
-# 교재 코드2
+#_________________________Anscode2
 import time
 start = time.perf_counter()  # 시간 측정 시작
 
