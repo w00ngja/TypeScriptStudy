@@ -1,12 +1,7 @@
-// 20231003
-// 객체 타입
+let userInput: unknown;
+let userName: string;
 
-const person: {
-  name: string;
-  age: number;
-} = {
-  name: 'Maximilan',
-  age: 30,
-};
+userInput = 5;
+userInput = 'max';
 
-console.log(person.name);
+// userName = userInput;
