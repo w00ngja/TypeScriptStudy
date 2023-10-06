@@ -1,0 +1,10 @@
+"use strict";
+var _a;
+let userInput;
+let userName;
+userInput = 5;
+userInput = 'max';
+const $button = document.createElement('button');
+$button.textContent = 'button2';
+(_a = document.querySelector('body')) === null || _a === void 0 ? void 0 : _a.appendChild($button);
+// userName = userInput;
